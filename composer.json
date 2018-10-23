@@ -1,0 +1,26 @@
+{
+  "name": "elgentos/magento2-composer-plugin",
+  "type": "composer-plugin",
+  "description": "Magento 2 composer plugin",
+  "keywords": ["composer"],
+  "license": ["WTFPL"],
+  "authors": [
+    {
+      "name": "Peter Jaap Blaakmeer",
+      "homepage": "https://elgentos.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "composer-plugin-api": "^1.1"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  },
+  "extra": {
+    "class": "Elgentos\\Magento2Composer\\Plugin"
+  }
+}
